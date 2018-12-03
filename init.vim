@@ -24,9 +24,6 @@ set inccommand=split
 let mapleader="\<space>" 
 nnoremap <leader>; A;<esc>
 nnoremap <c-p> :Files<cr>
-nnoremap <c-f> :Ag<space>
-nnoremap <c-e> :Explore<esc>
-
 
 let g:UltiSnipsEditSplit='vertical'
 let g:UltiSnipsSnippetsDir='~/.config/nvim/UltiSnips'
